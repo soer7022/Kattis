@@ -1,2 +1,2 @@
-.idea/
-Kattis.iml
+.idea\*
+*.iml
