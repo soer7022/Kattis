@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 @SuppressWarnings("ALL")
-class r2 {
+class faktor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int r1 = sc.nextInt();
-        int s = sc.nextInt();
-        System.out.println(2*s - r1);
+        int articles = sc.nextInt();
+        int factor = sc.nextInt();
+        System.out.println(articles * (factor-1) + 1);
     }
 }

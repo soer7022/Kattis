@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class bijele {
+@SuppressWarnings("ALL")
+class bijele {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int kings = 1 - sc.nextInt();

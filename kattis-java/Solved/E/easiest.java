@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class easiest {
+@SuppressWarnings("ALL")
+class easiest {
     public static void main(String[] args) {
-        int currentN = 0;
+        int currentN;
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             currentN = sc.nextInt();
@@ -18,7 +19,7 @@ public class easiest {
             }
         }
     }
-    public static int sumOfDigits(int digits) {
+    private static int sumOfDigits(int digits) {
         int totalsum = 0;
         if(digits < 10) {
             return digits;

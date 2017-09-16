@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class dicegame {
+@SuppressWarnings("ALL")
+class dicegame {
     public static void main(String[] args) {
         int gunnarTotal = 0;
         int emmaTotal= 0;
