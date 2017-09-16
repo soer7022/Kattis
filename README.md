@@ -16,12 +16,11 @@ View my profile here: https://open.kattis.com/users/erugar
 * [Dice Game](https://open.kattis.com/problems/dicegame)
 ### E
 * [The Easiest Problem Is This One](https://open.kattis.com/problems/easiest)
+### F
+* [Faktor](https://open.kattis.com/problems/faktor)
 ### M
 * [Modulo](https://open.kattis.com/problems/modulo)
+### O
+* [Oddities](https://open.kattis.com/problems/oddities)
 ### R
 * [R2](https://open.kattis.com/problems/r2)
-
-## Currently unsolved
-
-### P
-* [Pot](https://open.kattis.com/problems/pot)
