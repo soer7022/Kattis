@@ -12,6 +12,8 @@ View my profile here: https://open.kattis.com/users/erugar
 ### C
 * [Solving for Carrots](https://open.kattis.com/problems/carrots)
 * [Cold-puter Science](https://open.kattis.com/problems/cold)
+### D
+* [Dice Game](https://open.kattis.com/problems/dicegame)
 ### E
 * [The Easiest Problem Is This One](https://open.kattis.com/problems/easiest)
 ### M
