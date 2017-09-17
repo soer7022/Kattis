@@ -24,3 +24,5 @@ View my profile here: https://open.kattis.com/users/erugar
 * [Oddities](https://open.kattis.com/problems/oddities)
 ### R
 * [R2](https://open.kattis.com/problems/r2)
+### T
+* [Take Two Stones](https://open.kattis.com/problems/twostones)
