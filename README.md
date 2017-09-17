@@ -18,11 +18,17 @@ View my profile here: https://open.kattis.com/users/erugar
 * [The Easiest Problem Is This One](https://open.kattis.com/problems/easiest)
 ### F
 * [Faktor](https://open.kattis.com/problems/faktor)
+### L
+* [Ladder](https://open.kattis.com/problems/ladder)
 ### M
 * [Modulo](https://open.kattis.com/problems/modulo)
 ### O
 * [Oddities](https://open.kattis.com/problems/oddities)
 ### R
 * [R2](https://open.kattis.com/problems/r2)
+### S
+* [Speed Limit](https://open.kattis.com/problems/speedlimit)
 ### T
+* [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop)
+* [Trik](https://open.kattis.com/problems/trik)
 * [Take Two Stones](https://open.kattis.com/problems/twostones)
