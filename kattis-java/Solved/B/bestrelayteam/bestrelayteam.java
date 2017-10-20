@@ -15,16 +15,16 @@ public class bestrelayteam {
                 this.lastLeg = lastLeg;
             }
 
+            private String getName() {
+                return name;
+            }
+
             private double getFirstLeg() {
                 return firstLeg;
             }
 
             private double getLastLeg() {
                 return lastLeg;
-            }
-
-            private String getName() {
-                return name;
             }
         }
         ArrayList<Runner> runners = new ArrayList<>();
