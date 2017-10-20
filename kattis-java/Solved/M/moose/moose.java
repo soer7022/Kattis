@@ -1,4 +1,4 @@
-package com.kattis.moose;
+package M.moose;
 
 import java.util.Scanner;
 
@@ -9,13 +9,11 @@ public class moose {
         int r = sc.nextInt();
         if (l == 0 && r == 0) {
             System.out.println("Not a moose");
-        }
-         else if(l == r) {
+        } else if (l == r) {
             System.out.println("Even " + (l + r));
-        }
-        else {
+        } else {
             System.out.print("Odd ");
-            System.out.print(Math.max(l,r) * 2);
+            System.out.print(Math.max(l, r) * 2);
         }
     }
 }

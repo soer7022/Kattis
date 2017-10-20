@@ -9,21 +9,21 @@ public class bestrelayteam {
             private double firstLeg;
             private double lastLeg;
 
-            public Runner(String name, double firstLeg, double lastLeg) {
+            private Runner(String name, double firstLeg, double lastLeg) {
                 this.name = name;
                 this.firstLeg = firstLeg;
                 this.lastLeg = lastLeg;
             }
 
-            public double getFirstLeg() {
+            private double getFirstLeg() {
                 return firstLeg;
             }
 
-            public double getLastLeg() {
+            private double getLastLeg() {
                 return lastLeg;
             }
 
-            public String getName() {
+            private String getName() {
                 return name;
             }
         }
@@ -40,12 +40,7 @@ public class bestrelayteam {
             runners.add(new Runner(name, firstLeg, lastLeg));
         }
 
-        Collections.sort(runners, new Comparator<Runner>() {
-            @Override
-            public int compare(Runner o1, Runner o2) {
-                return Double.compare(o1.getLastLeg(), o2.getLastLeg());
-            }
-        });
+        runners.sort(Comparator.comparingDouble(Runner::getLastLeg));
         double fourTime = 0;
 
         for (int i = 0; i < 4; i++) {
@@ -56,13 +51,12 @@ public class bestrelayteam {
         double bestTime = Double.POSITIVE_INFINITY;
         Runner bestRunner = null;
 
-        for (Runner r: runners) {
+        for (Runner r : runners) {
             double totalTime = fourTime;
             totalTime += r.getFirstLeg();
             if (fourFastest.contains(r)) {
                 totalTime -= r.getLastLeg();
-            }
-            else {
+            } else {
                 totalTime -= fourFastest.get(3).getLastLeg();
             }
             if (bestRunner == null || totalTime < bestTime) {
@@ -72,14 +66,14 @@ public class bestrelayteam {
         }
 
         System.out.println(bestTime);
+        assert bestRunner != null;
         System.out.println(bestRunner.getName());
         if (fourFastest.contains(bestRunner)) {
             fourFastest.remove(bestRunner);
-        }
-        else {
+        } else {
             fourFastest.remove(3);
         }
-        for (Runner r: fourFastest) {
+        for (Runner r : fourFastest) {
             System.out.println(r.getName());
         }
 

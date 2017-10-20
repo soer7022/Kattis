@@ -12,7 +12,7 @@ public class sevenwonders {
         int c = 0;
         int g = 0;
 
-        for (String s: chars) {
+        for (String s : chars) {
             if (s.equals("T")) {
                 t++;
             }
@@ -23,6 +23,6 @@ public class sevenwonders {
                 g++;
             }
         }
-        System.out.println((int)(Math.pow(t,2) + Math.pow(c,2) + Math.pow(g,2) + (Math.min(t, (Math.min(c, g))) * 7)));
+        System.out.println((int) (Math.pow(t, 2) + Math.pow(c, 2) + Math.pow(g, 2) + (Math.min(t, (Math.min(c, g))) * 7)));
     }
 }

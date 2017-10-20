@@ -4,15 +4,15 @@ import java.util.Scanner;
 class dicegame {
     public static void main(String[] args) {
         int gunnarTotal = 0;
-        int emmaTotal= 0;
+        int emmaTotal = 0;
         Scanner sc = new Scanner(System.in);
-        for(int i = 1; i <= 4; i++) {
+        for (int i = 1; i <= 4; i++) {
             gunnarTotal += sc.nextInt();
         }
         for (int i = 1; i <= 4; i++) {
             emmaTotal += sc.nextInt();
         }
-        if(gunnarTotal > emmaTotal) {
+        if (gunnarTotal > emmaTotal) {
             System.out.println("Gunnar");
         }
         if (gunnarTotal < emmaTotal) {

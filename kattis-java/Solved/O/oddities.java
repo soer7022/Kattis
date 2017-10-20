@@ -5,12 +5,11 @@ class oddities {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         sc.nextInt();
-        while(sc.hasNextInt()) {
+        while (sc.hasNextInt()) {
             int x = sc.nextInt();
-            if(x % 2 == 0) {
+            if (x % 2 == 0) {
                 System.out.println(x + " is even");
-            }
-            else {
+            } else {
                 System.out.println(x + " is odd");
             }
         }

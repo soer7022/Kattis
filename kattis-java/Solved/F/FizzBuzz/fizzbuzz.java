@@ -1,5 +1,6 @@
 package F.FizzBuzz;
 
+import java.util.Objects;
 import java.util.Scanner;
 
 public class fizzbuzz {
@@ -17,10 +18,9 @@ public class fizzbuzz {
             if (i % y == 0) {
                 out += "Buzz";
             }
-            if(out != "") {
+            if (!Objects.equals(out, "")) {
                 System.out.println(out);
-            }
-            else {
+            } else {
                 System.out.println(i);
             }
         }

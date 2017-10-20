@@ -11,13 +11,11 @@ public class nastyhacks {
             int e = sc.nextInt();
             int c = sc.nextInt();
 
-            if(r == e - c) {
+            if (r == e - c) {
                 System.out.println("does not matter");
-            }
-            else if (r > e - c) {
+            } else if (r > e - c) {
                 System.out.println("do not advertise");
-            }
-            else {
+            } else {
                 System.out.println("advertise");
             }
         }

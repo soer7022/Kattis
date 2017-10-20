@@ -7,10 +7,9 @@ class Aaah {
         String mariusAaah = sc.next();
         String doctorAaah = sc.next();
 
-        if(mariusAaah.length() >= doctorAaah.length()) {
+        if (mariusAaah.length() >= doctorAaah.length()) {
             System.out.println("go");
-        }
-        else {
+        } else {
             System.out.println("no");
         }
 

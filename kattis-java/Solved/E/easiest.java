@@ -7,24 +7,25 @@ class easiest {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             currentN = sc.nextInt();
-            if(currentN == 0) {
+            if (currentN == 0) {
                 break;
             }
             int sumToMatch = sumOfDigits(currentN);
             for (int i = 11; i < 1000000; i++) {
-                if(sumOfDigits(currentN*i) == sumToMatch) {
+                if (sumOfDigits(currentN * i) == sumToMatch) {
                     System.out.println(i);
                     break;
                 }
             }
         }
     }
+
     private static int sumOfDigits(int digits) {
         int totalsum = 0;
-        if(digits < 10) {
+        if (digits < 10) {
             return digits;
         }
-        while(digits > 0) {
+        while (digits > 0) {
             totalsum += digits % 10;
             digits /= 10;
         }

@@ -8,7 +8,7 @@ class modulo {
         ArrayList<Integer> numbersSeen = new ArrayList<>();
         while (sc.hasNextInt()) {
             int i = sc.nextInt();
-            if(!numbersSeen.contains(i % 42)) {
+            if (!numbersSeen.contains(i % 42)) {
                 numbersSeen.add(i % 42);
             }
         }

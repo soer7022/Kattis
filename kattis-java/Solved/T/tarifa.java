@@ -13,6 +13,6 @@ public class tarifa {
             total -= n;
             total += cap;
         }
-        System.out.println(total+cap);
+        System.out.println(total + cap);
     }
 }

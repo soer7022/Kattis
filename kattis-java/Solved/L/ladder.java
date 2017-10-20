@@ -6,6 +6,6 @@ class ladder {
         Scanner sc = new Scanner(System.in);
         int h = sc.nextInt();
         double v = Math.toRadians(sc.nextInt());
-        System.out.println((int)Math.ceil(h/(Math.sin(v))));
+        System.out.println((int) Math.ceil(h / (Math.sin(v))));
     }
 }

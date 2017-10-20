@@ -6,6 +6,6 @@ class faktor {
         Scanner sc = new Scanner(System.in);
         int articles = sc.nextInt();
         int factor = sc.nextInt();
-        System.out.println(articles * (factor-1) + 1);
+        System.out.println(articles * (factor - 1) + 1);
     }
 }

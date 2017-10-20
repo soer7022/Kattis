@@ -13,7 +13,7 @@ public class grassseed {
         for (int i = 0; i < n; i++) {
             float w = sc.nextFloat();
             float h = sc.nextFloat();
-            total += w*h*cost;
+            total += w * h * cost;
         }
         System.out.println(total);
     }
