@@ -20,6 +20,7 @@ View my profile here: https://open.kattis.com/users/erugar
 * [Faktor](https://open.kattis.com/problems/faktor)
 ### H
 * [Houselawn](https://open.kattis.com/problems/houselawn)
+* [Hello world!](https://open.kattis.com/problems/hello)
 ### L
 * [Ladder](https://open.kattis.com/problems/ladder)
 ### M
@@ -34,3 +35,5 @@ View my profile here: https://open.kattis.com/users/erugar
 * [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop)
 * [Trik](https://open.kattis.com/problems/trik)
 * [Take Two Stones](https://open.kattis.com/problems/twostones)
+### Z
+* [Zamka](https://open.kattis.com/problems/zamka)
