@@ -1,0 +1,11 @@
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/bin/Debug/netcoreapp3.0/Kattis-CSharp
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/bin/Debug/netcoreapp3.0/Kattis-CSharp.deps.json
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/bin/Debug/netcoreapp3.0/Kattis-CSharp.runtimeconfig.json
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/bin/Debug/netcoreapp3.0/Kattis-CSharp.runtimeconfig.dev.json
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/bin/Debug/netcoreapp3.0/Kattis-CSharp.dll
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/bin/Debug/netcoreapp3.0/Kattis-CSharp.pdb
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/obj/Debug/netcoreapp3.0/Kattis-CSharp.csprojAssemblyReference.cache
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/obj/Debug/netcoreapp3.0/Kattis-CSharp.AssemblyInfoInputs.cache
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/obj/Debug/netcoreapp3.0/Kattis-CSharp.AssemblyInfo.cs
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/obj/Debug/netcoreapp3.0/Kattis-CSharp.dll
+/Users/dksosker/git/Kattis/Kattis-CSharp/Kattis-CSharp/obj/Debug/netcoreapp3.0/Kattis-CSharp.pdb
